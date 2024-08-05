@@ -16,11 +16,7 @@ const SideNav = () => {
             icon: FileClock,
             path:"/dashboard/History",
         },
-        {
-            name:"Billing",
-            icon: WalletCards,
-            path:"/dashboard/Billing",
-        },
+    
         {
             name:"Settings",
             icon: Settings,

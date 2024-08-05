@@ -1,3 +1,4 @@
+import { SignOutButton } from '@clerk/nextjs'
 import { Search } from 'lucide-react'
 import React from 'react'
 
@@ -8,6 +9,10 @@ const Header = () => {
             <Search />
             <input type="text" placeholder='Search...' className='outline-none bg-transparent w-full h-full' />
         </div>
+
+       <button className='bg-[#1c1f26] px-[25px] rounded-md py-[8px]'>
+       <SignOutButton />
+       </button>
         {/* <div><h2 className='text-white text-center rounded-full text-xs px-2 p-1 bg-primary'>🔥 Join Membership just for $9.99/Month</h2></div> */}
     </div>
   )

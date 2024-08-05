@@ -81,17 +81,14 @@ body{
   background-position: center;
 }
 
-
+html,body{
+  scroll-behavior: smooth;
+}
 .home-img{
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../app/../public/aibg.jpg') center/cover no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../app/../public/aibgg.jpg') center/cover no-repeat;
 }
 
 
-.h1 {
-  font-size: 3.5em;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-  line-height: normal;
-}
 
 .p {
   font-size: 1.3em;
