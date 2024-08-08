@@ -2,7 +2,6 @@ import { Button } from "@/components/ui/button";
 import { SignInButton, SignUpButton, useUser } from "@clerk/nextjs";
 import Image from "next/image";
 import Head from "next/head"; // Importing Head component for SEO
-import { useRouter } from "next/navigation";
 import Auth from "./dashboard/_components/Auth";
 
 export default function Home() {
